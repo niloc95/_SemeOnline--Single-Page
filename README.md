@@ -9,4 +9,7 @@ Single Frontend webpage - HTML, SCSS, JS
   * @link        https://semeonline.co.za
   * @since       v1.1 - 082 529 2242 
   * ------------------------------------------------------------------------------>
+<<<<<<< HEAD
 
+=======
+>>>>>>> aee63ba... Master hero Banner changes
