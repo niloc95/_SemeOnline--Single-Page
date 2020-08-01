@@ -1,0 +1,36 @@
+//------------------------------------------------------------------------------
+//  * @Developer   SemeOnline Digital
+//  * @package     SemeOnline Digital - Website - {React, Webpack}
+//  * @author      SemeOnline(Pty)Ltd <info@semeonline.co.za>
+//  * @copyright   Copyright (c) 2020, SemeOnline (Pty)Ltd
+//  * @link        https://semeonline.co.za
+//  * @since       v2.8.1 - 087 701 7998  
+// -----------------------------------------------------------------------------
+
+/* Icon */
+
+	.icon {
+		@include icon;
+		border-bottom: none;
+		position: relative;
+
+		> .label {
+			display: none;
+		}
+
+		&:before {
+			line-height: inherit;
+		}
+
+		&.solid {
+			&:before {
+				font-weight: 900;
+			}
+		}
+
+		&.brands {
+			&:before {
+				font-family: 'Font Awesome 5 Brands';
+			}
+		}
+	}
