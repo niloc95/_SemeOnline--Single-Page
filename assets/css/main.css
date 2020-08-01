@@ -738,8 +738,8 @@ button,
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-  background-color: #1cb495;
-  border-radius: 6px;
+  background-color: #212121;
+  border-radius: 0px 0px 0px 0px;
   border: 0;
   color: #ffffff !important;
   cursor: pointer;
@@ -784,7 +784,8 @@ button,
 /* Header */
 #header h1 {
   font-size: 5.25em;
-  font-weight: 500;
+  font-weight: 700;
+  letter-spacing: -0.4rem;
   font-family: 'IBM Plex Sans', sans-serif;
   margin: 0 0 0.55em 0; }
 
@@ -816,7 +817,10 @@ button,
   #signup-form input[type="text"],
   #signup-form input[type="password"],
   #signup-form input[type="email"] {
-    width: 18em; }
+    width: 18em;
+    border-radius: 0px 0px 0px 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+   }
   #signup-form > * {
     margin: 0 0 0 1em; }
   #signup-form > :first-child {
